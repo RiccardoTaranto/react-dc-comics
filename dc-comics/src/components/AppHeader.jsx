@@ -6,7 +6,7 @@ export default function AppHeader() {
     //jsx template here
     return (
         <header>
-            <img src={AppLogo} alt="" />
+            <img src={AppLogo} alt="DC LOGO" />
             <nav>
                 <a href="">CHARACTER</a>
                 <a href="">COMICS</a>

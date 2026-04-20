@@ -1,7 +1,7 @@
 export default function AppMain() {
     // logic here
 
-    // jsx temlate here
+    // jsx template here
     return (
         <main>
             content goes here
