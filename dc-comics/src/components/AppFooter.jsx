@@ -4,6 +4,7 @@ import IconSubscription from "../assets/img/buy-comics-subscriptions.png"
 import IconShopLocator from "../assets/img/buy-comics-shop-locator.png"
 import IconPowerVisa from "../assets/img/buy-dc-power-visa.svg"
 import BgFooter from "../assets/img/footer-bg.jpg"
+import BgLogo from "../assets/img/dc-logo-bg.png"
 import IconFacebook from "../assets/img/footer-facebook.png"
 import IconTwitter from "../assets/img/footer-twitter.png"
 import IconYoutube from "../assets/img/footer-youtube.png"
@@ -24,9 +25,51 @@ export default function AppFooter() {
                 <a href=""><img src={IconPowerVisa} alt="" />DC POWER VISA</a>
             </nav>
 
+            <div className="list_footer" style={{ backgroundImage: `url(${BgLogo})` }}>
+                <h3>DC COMICS</h3>
+                <ul>
+                    <li>Character</li>
+                    <li>Comics</li>
+                    <li>Movies</li>
+                    <li>TV</li>
+                    <li>Games</li>
+                    <li>Video</li>
+                    <li>News</li>
+                </ul>
+
+                <h3>SHOP</h3>
+                <ul>
+                    <li>Shop DC</li>
+                    <li>Shop DC Collectibles</li>
+                </ul>
+
+                <h3>DC</h3>
+                <ul>
+                    <li>Terms of Use</li>
+                    <li>Privacy Policy (new)</li>
+                    <li>As Choice</li>
+                    <li>Adveretising</li>
+                    <li>Job</li>
+                    <li>Subscriptiuon</li>
+                    <li>Talent Workshop</li>
+                    <li>CPSC Certificates</li>
+                    <li>Ratings</li>
+                    <li>Shop Help</li>
+                    <li>Contact Us</li>
+                </ul>
+
+                <h3>SITES</h3>
+                <ul>
+                    <li>DC</li>
+                    <li>MAD Magazine</li>
+                    <li>DC Kids</li>
+                    <li>DC Universe</li>
+                    <li>DC Power Visa</li>
+                </ul>
+            </div>
 
 
-            <div className="footer-bottom">
+            <div className="footer_bottom">
                 <button>SIGN-UP NOW!</button>
 
                 <div className="social">
