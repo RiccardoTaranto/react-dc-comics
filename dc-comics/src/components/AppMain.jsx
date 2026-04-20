@@ -3,6 +3,6 @@ export default function AppMain() {
 
     //jsx temlate here
     return (
-        <main> main content goes here </main>
+        <main> content goes here </main>
     )
 }
