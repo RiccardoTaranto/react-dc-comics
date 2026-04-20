@@ -4,6 +4,5 @@ export default function AppFooter() {
     //jsx temlate here
     return (
         <footer>footer</footer>
-
     )
 }

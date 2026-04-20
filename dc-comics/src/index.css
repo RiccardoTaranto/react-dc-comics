@@ -20,9 +20,15 @@ header {
     a {
       padding: 0.5rem 0.5rem;
       text-decoration: none;
-      font-family: Open Sans;
+      font-family: Open Sans, sans-serif;
     }
 
   }
+}
 
+main {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
 }
