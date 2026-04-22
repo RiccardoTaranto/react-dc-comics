@@ -11,19 +11,19 @@ export default function AppFooter() {
     // logic here
     const footerSections = [
         {
-            title: "DC COMICS"
+            title: "DC COMICS",
             link: ["Characters", "Comics", "Movies", "TV", "Games", "Videos", "News"]
         },
         {
-            title: "SHOP"
+            title: "SHOP",
             link: ["Shop DC", "Shop DC Collectibles"]
         },
         {
-            title: "DC"
+            title: "DC",
             link: ["Terms Of Use", "Privacy policy (New)", "Ad Choices", "Advertising", "Jobs", "Subscriptions", "Talent Workshops", "CPSC Certificates", "Ratings", "Shop Help", "Contact Us"]
         },
         {
-            title: "SITES"
+            title: "SITES",
             link: ["DC", "MAD Magazine", "DC Kids", "DC Universe", "DC Power Visa"]
         }
     ]
@@ -40,60 +40,12 @@ export default function AppFooter() {
                     <div key={section.title}>
                         <h3>{section.title}</h3>
                         <ul>
-                            {section.link.map((link) => (
-                                <li key={link}></li>
+                            {section.link.map((item) => (
+                                <li key={item}>{item}</li>
                             ))}
                         </ul>
                     </div>
                 ))}
-
-
-
-
-
-
-
-
-                <h3>DC COMICS</h3>
-                <ul>
-                    <li>Character</li>
-                    <li>Comics</li>
-                    <li>Movies</li>
-                    <li>TV</li>
-                    <li>Games</li>
-                    <li>Video</li>
-                    <li>News</li>
-                </ul>
-
-                <h3>SHOP</h3>
-                <ul>
-                    <li>Shop DC</li>
-                    <li>Shop DC Collectibles</li>
-                </ul>
-
-                <h3>DC</h3>
-                <ul>
-                    <li>Terms of Use</li>
-                    <li>Privacy Policy (new)</li>
-                    <li>As Choice</li>
-                    <li>Adveretising</li>
-                    <li>Job</li>
-                    <li>Subscriptiuon</li>
-                    <li>Talent Workshop</li>
-                    <li>CPSC Certificates</li>
-                    <li>Ratings</li>
-                    <li>Shop Help</li>
-                    <li>Contact Us</li>
-                </ul>
-
-                <h3>SITES</h3>
-                <ul>
-                    <li>DC</li>
-                    <li>MAD Magazine</li>
-                    <li>DC Kids</li>
-                    <li>DC Universe</li>
-                    <li>DC Power Visa</li>
-                </ul>
             </div>
 
 
@@ -114,4 +66,3 @@ export default function AppFooter() {
     )
 
 }
-
