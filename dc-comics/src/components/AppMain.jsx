@@ -1,3 +1,5 @@
+import comics from "./comics"
+
 export default function AppMain() {
     // logic here
 
