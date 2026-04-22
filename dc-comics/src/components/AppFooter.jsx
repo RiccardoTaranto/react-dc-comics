@@ -35,6 +35,25 @@ export default function AppFooter() {
             <AppBlueBanner />
 
             <div className="list_footer" style={{ backgroundImage: `url(${BgLogo})` }}>
+
+                {footerSections.map((section) => (
+                    <div key={section.title}>
+                        <h3>{section.title}</h3>
+                        <ul>
+                            {section.link.map((link) => (
+                                <li key={link}></li>
+                            ))}
+                        </ul>
+                    </div>
+                ))}
+
+
+
+
+
+
+
+
                 <h3>DC COMICS</h3>
                 <ul>
                     <li>Character</li>
