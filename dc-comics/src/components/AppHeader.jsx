@@ -2,6 +2,7 @@ import AppLogo from "../assets/img/dc-logo.png"
 
 export default function AppHeader() {
     // logic here
+    const menu = ["CHARACTER", "COMICS", "MOVIES", "TV", "GAMES", "COLLECTIBLES", "VIDEOS", "FANS", "NEWS", "SHOP"]
 
     //jsx template here
     return (
