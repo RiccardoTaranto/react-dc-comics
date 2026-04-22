@@ -22,9 +22,7 @@ export default function AppHeader() {
 
             <nav>
                 {menu.map((item) =>
-                    <a href="#" key={item.text}>
-                        {item.text}
-                    </a>
+                    <a href="#" key={item.text}>{item.text}</a>
                 )}
             </nav>
         </header>

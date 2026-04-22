@@ -9,6 +9,24 @@ import AppBlueBanner from "./AppBlueBanner"
 
 export default function AppFooter() {
     // logic here
+    const footerSections = [
+        {
+            title: "DC COMICS"
+            link: ["Characters", "Comics", "Movies", "TV", "Games", "Videos", "News"]
+        },
+        {
+            title: "SHOP"
+            link: ["Shop DC", "Shop DC Collectibles"]
+        },
+        {
+            title: "DC"
+            link: ["Terms Of Use", "Privacy policy (New)", "Ad Choices", "Advertising", "Jobs", "Subscriptions", "Talent Workshops", "CPSC Certificates", "Ratings", "Shop Help", "Contact Us"]
+        },
+        {
+            title: "SITES"
+            link: ["DC", "MAD Magazine", "DC Kids", "DC Universe", "DC Power Visa"]
+        }
+    ]
 
     //jsx template here
     return (
